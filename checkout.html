@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        body{
+            background-image: url(home.png);
+        background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        input{
+            padding:10px;
+            font-size:20px;
+            border:1px solid  #ccc;
+            border-radius: 10px;
+        }
+        .message{
+            font-size: 18px;
+            margin-top: 5px;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div id="maindiv">
+    <div class="container">
+        <h2>Checkout</h2>
+        <form id="myform" action="home.html">
+            <label for="name">Name:</label>
+            <input type="text" id="name" onkeyup="validateName()" required>
+            <div class="message" id="nameMessage"></div>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" onkeyup="validateEmail()" required>
+            <div class="message" id="emailMessage"></div>
+    
+            
+            <div class="form-group">
+                <label for="mobile">Mobile number:</label>
+                <input type="text" id="Mobile number" name="Mobile number" required><br><br>
+            <div class="form-group">
+                <label for="Postal code">Postal Code:</label>
+                <input type="text" id="Postal code" name="Postal Code" required>
+            </div>
+            <label for="payment method">payment method:</label>
+<input type="radio" name="payment method" value="COD" id="COD">COD
+<input type="radio" name="payment method" value="female" id="male">UPI
+<br><br>
+            <div class="form-group">
+                <label for="address">addresss:</label>
+<textarea name="address" id="address" cols="20" rows="5"></textarea>
+            </div>
+            
+            
+           
+            <input type="submit" value="place order" >
+            </div>
+        </form>
+    </div>
+    </div>
+    
+    <script> src="/22.form.js"</script>
+</body>
+</html>

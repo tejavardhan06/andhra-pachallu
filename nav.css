@@ -1,0 +1,138 @@
+h1{
+    text-align: center;}
+   
+    
+    
+   
+img{border-radius: 10px;}
+#d1{margin-left: 100px;
+    margin-right: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;}
+#b1{
+    text-align: left;
+}
+#d3{
+    background-image: url(Firefly\ all\ andhra\ snacks\ in\ photos\ 35688.jpg);
+    background-size: cover;
+  background-position: center;
+  
+}
+.products {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+}
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    width: 45%;
+    box-sizing: border-box;
+    padding-left: 75px;
+   
+    transition: backround-color 0.3s,transform 0.3s;
+border-radius: 10px;}
+.product:hover{ background-color: rgba(29, 252, 36, 0.189);
+    transform: scale(1.1);}
+
+
+
+ 
+footer{
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffffffb;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.form-group button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+textarea{width: 100%;}
+
+        input[type="submit"]:hover{
+            background-color: rgba(137, 43, 226, 0.149);
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+        .navbar ul{
+            list-style-type: none;
+        
+     
+            overflow: hidden;}
+        
+        nav {
+            text-align: center;
+            padding-top: 10px ;
+            color: black;
+            color: #ffffff3a;
+            
+        }
+        nav a {
+            color: #121111;
+            margin:  0px;
+            text-decoration: none;
+            padding: 10px;
+            text-align: center;
+            display: block;
+            text-shadow: #121111;
+                     
+           
+    }
+    .navbar a:hover{
+        background-color: rgba(0, 0, 0, 0.463);
+        color: yellow;
+        border-radius: 10px;
+    }
+    .navbar li{
+        float: left;}
+        .cart-box:hover{background-color: rgba(19, 19, 19, 0.189);
+            transform: scale(1.1);
+            width: 50px;
+            padding: 10px;
+            transition: backround-color 0.9s,transform 0.5s;
+            border-radius: 10px;
+           
+        }
+       
